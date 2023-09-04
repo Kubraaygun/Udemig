@@ -1,0 +1,248 @@
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap");
+
+/* FORMAT */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* HEADER START */
+Header {
+  background-color: rgba(34, 34, 34, 0.9);
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  border-bottom: 2px solid white;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 2px auto;
+  padding: 10px 0;
+  justify-content: space-between;
+}
+
+.navlink {
+  display: flex;
+}
+
+.navlink li a {
+  color: white;
+  margin-left: 15px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+.navlink li a:hover {
+  background-color: #24caac;
+}
+
+.logo h2 a {
+  color: white;
+  text-transform: uppercase;
+}
+
+/* HEADER END */
+
+/* SECTİON */
+section {
+  padding: 100px 0;
+  background-color: #122e44;
+}
+img {
+  width: 100%;
+}
+/* HOME SECTİON START */
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
+  color: white;
+}
+.home_child {
+  flex-basis: 45%;
+}
+.home_child h1 {
+  color: #24caac;
+  font-size: 50px;
+}
+
+.span {
+  color: #df376e;
+}
+
+.home_child p {
+  font-size: 25px;
+  margin-bottom: 12px;
+}
+
+.btn {
+  background-color: #24caac;
+  padding: 12px 40px;
+  border-radius: 16px;
+  color: white;
+  font-size: large;
+  border: 1px solid white;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: transparent;
+  letter-spacing: 1px;
+}
+/* HOME SECTİON END */
+
+/* SOFTWARE SECTİON START */
+.section_title {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 50px;
+  transition: 0.5s all ease-in-out;
+}
+
+.section_title:hover {
+  background-color: #24caac;
+}
+.software {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.software_child {
+  color: white;
+  background-color: #01101a;
+  flex-basis: 30%;
+  padding: 25px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: all 0.5s ease-in-out;
+}
+.software_child:hover {
+  border: 1px solid #24caac;
+}
+
+.software_child .Icon {
+  color: #24caac;
+  font-size: 25px;
+}
+
+.software_child h3 {
+  font-size: 20px;
+}
+/* SOFTWARE SECTION END */
+
+/* CERTIFICATES SECTION START */
+.certificates {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.certificates_child {
+  flex-basis: 24%;
+  color: white;
+  padding: 20px 10px;
+  border: 1px solid transparent;
+  transition: all 0.5s ease-in-out;
+  border-radius: 5px;
+}
+
+.certificates_child:hover {
+  border: 1px solid #24caac;
+}
+
+.certificates_child .details {
+  display: flex;
+  justify-content: space-between;
+}
+.certificates_child .details ul {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 50%;
+}
+.certificates_child .details ul li {
+  color: gold;
+}
+/* CERTIFICATES SECTION END */
+
+/* SUCCESS SECTION START */
+.success {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.success_child {
+  flex-basis: 40%;
+}
+
+.success_child img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.success_child2 {
+  flex-basis: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.single_detail {
+  flex-basis: 40%;
+  padding: 40px 30px;
+  color: white;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+.single_detail:hover {
+  transform: scale(1.05);
+}
+
+.sd_1 {
+  background-color: #eaa022;
+  margin-bottom: 20px;
+}
+
+.sd_2 {
+  background-color: #e91e62;
+  margin-bottom: 20px;
+}
+.sd_3 {
+  background-color: #24caac;
+  margin-bottom: 20px;
+}
+.sd_4 {
+  background-color: #2e363e;
+  margin-bottom: 20px;
+}
+/* SUCCESS SECTION END */
