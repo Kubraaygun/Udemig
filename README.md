@@ -1,6 +1,6 @@
-<h1>Udemig</>
+<h1>Udemig</h1>
 
-udemig etkilesim sayfasi
+Udemig Etkileşim Sayfasıdır.
 
 <h2>Ekran Görüntüsü</h2>
 
