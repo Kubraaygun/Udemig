@@ -1,6 +1,6 @@
 <h1>Udemig<h1>
 
-Bu proje statik bir web sitesinin HTML ve CSS kullanılarak oluşturulduğu bir örnektir. 
+<p>Bu proje statik bir web sitesinin HTML ve CSS kullanılarak oluşturulduğu bir örnektir. </p>
 
 <h2>Bölümler</h2>
 <ul>
