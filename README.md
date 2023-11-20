@@ -1,6 +1,10 @@
 <h1>Udemig<h1>
 
+<<<<<<< HEAD
 Bu proje statik bir web sitesinin HTML ve CSS kullanılarak oluşturulduğu bir örnektir. 
+=======
+<p>Bu proje statik bir web sitesinin HTML ve CSS kullanılarak oluşturulduğu bir örnektir. </p>
+>>>>>>> 851b5f17a49a47013d18dec176da67901f33d9fe
 
 <h2>Bölümler</h2>
 <ul>
@@ -17,7 +21,10 @@ Bu proje statik bir web sitesinin HTML ve CSS kullanılarak oluşturulduğu bir 
 <li>CSS</li>
 <li>Font Awesome (ikonlar için)</li>
 </ul>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 851b5f17a49a47013d18dec176da67901f33d9fe
 
 
 <h2>Ekran Görüntüsü</h2>
